@@ -21,7 +21,7 @@ def main(value,from_unit,to_unit):
     else:
         return "conversion not possible"
     
-st.title("Unit Converter")
+st.title("Unit Converter By Huzaifa")
 value = st.number_input("Enter the value")
 
 from_unit = st.selectbox("From unit",["meter","kilometer","gram","kilogram"])
